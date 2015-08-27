@@ -11,10 +11,10 @@ You can very simple style yours video with diffrents CSS preprocesor. It depends
 In html file:
 ```
 <video>
-				  <source src="" type="video/ogg">
-				  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-				  Your browser does not support the <code>video</code> element. Update browser! 
-				  Have heart for developpers!
+	<source src="" type="video/ogg">
+	<source src="" type="video/mp4">
+	Your browser does not support the <code>video</code> element. Update browser! 
+	Have heart for developpers!
 </video>
 ```
 In js <script>:
