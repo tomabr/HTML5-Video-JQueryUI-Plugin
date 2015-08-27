@@ -85,12 +85,10 @@ HTML5 Video JQueryUI Plugin
 
 				function startCount() {
     				t = setInterval(function() {
-				        if (!video.ended) {	
+				        if (!!video.ended) {	
 					            play.innerHTML = options.playPause[0]
 					            clearInterval(t);
 					            startCount();
-					    } else{
-					    	stopControl();
 					    }
 		        		updateProgress();
     				},Floor(1000/options.frameForMinute));		
